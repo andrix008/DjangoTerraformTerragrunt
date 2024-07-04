@@ -35,3 +35,18 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+.*.sw?
+.idea
+terragrunt.iml
+vendor
+.vscode
+*.out
+.terragrunt-cache
+.bundle
+.ruby-version
+.terraform.lock.hcl
+terragrunt
+.DS_Store
+mocks/
+.go-version
